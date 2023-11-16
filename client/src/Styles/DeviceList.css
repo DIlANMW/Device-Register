@@ -1,0 +1,65 @@
+.results {
+  min-height: 40vh;
+  width: 90vw;
+}
+.title_results {
+  color: #000;
+  text-align: start;
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding-left: 4rem;
+}
+.section_all_results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the child elements horizontally */
+}
+
+.section_individual_result {
+  border-radius: 10px;
+  margin: 10px;
+  padding: 14px 40px;
+  width: 70%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease-in-out;
+}
+.section_individual_result:hover {
+  transform: scale(1.01);
+}
+
+.div_buttons_results {
+  float: right;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.modify_results {
+  background-color: #b1c0f1;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #061150;
+}
+.delete_results {
+  background-color: rgb(252, 139, 139);
+  font-size: 0.9rem;
+  color: #6d0707;
+}
+
+.device-name {
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.device-desc {
+  font-weight: 500;
+  color: #302f2f;
+  padding-bottom: 10px;
+}
+.rating,
+.category {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #061150;
+}
